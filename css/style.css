@@ -1,0 +1,95 @@
+:root{
+    --white-color:#ffffff;
+    --orange-color:#ff9900;
+    --cyan-color:#00ccff;
+    --dark-blue-color:#001a33;
+    --light-blue-color:#003366;
+}
+
+body{
+    min-height:100vh;
+    background-color: var(--dark-blue-color);
+    color:var(--white-color);
+}
+
+/* SIDEBAR */
+.sidebar{
+    min-height: 100vh;
+    background-color: var(--light-blue-color);
+    width:260px;
+    position:fixed;
+    z-index:1;
+    left: 0px;
+    border:1px solid var(--cyan-color);
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+
+.brand-name-h5{
+    font-size: 25px;
+}
+
+.brand-name-paragraph{
+    color:var(--cyan-color);
+    text-transform:uppercase;
+}
+
+.brand-logo{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.brand-sidebar-image{
+   height: 80px;
+   width: 80px;
+   border-width: 3px;
+   border-color: var(--cyan-color);
+   border-style: solid;
+   border-radius: 40px;
+}
+
+.side-menu-items{
+    list-style-type: none;
+}
+
+.side-menu{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.side-menu-items li{
+    /*border: 2px solid red;*/
+    margin-bottom: 20px;
+}
+
+.side-menu-items a{
+    color: var(--white-color);
+    font-size: 17px;
+    text-decoration:none;
+}
+
+.social-media{
+    margin-top: 20px;
+    border:2px solid green;
+}
+
+.social-icon-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    
+    
+}
+
+.social-icon-list a{
+    color: var(--white-color);
+    font-size: 17px;
+}
+
+/*END OF SIDEBAR*/
+
+.main-body{
+    padding-left: 300px;
+}
