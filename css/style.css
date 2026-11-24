@@ -71,7 +71,7 @@ body{
 
 .social-media{
     margin-top: 20px;
-    border:2px solid green;
+    
 }
 
 .social-icon-list{
@@ -93,3 +93,10 @@ body{
 .main-body{
     padding-left: 300px;
 }
+
+/*FOOTER STYLES */
+
+.footer-paragraph{
+    color: #a3c2c2;
+}
+/*END OF FOOTER STYLE*/

@@ -12,7 +12,7 @@
     </head>
     <body>
         <!--Container-->
-        <div class="container-fliud" style="border:3px solid blue;height:600px">
+        <div class="container-fliud">
             <!--Sidebar-->
             <div class="sidebar">
                 <!--brand-name-->
@@ -22,12 +22,12 @@
                 </div>
 
                 <!--brand-logo-->
-                <div class="brand-logo" style="border: 2px solid red;">
+                <div class="brand-logo">
                     <center><img src="logo/logo.png"  alt="Profile-Image" class="brand-sidebar-image"></center>
                 </div>
 
                 <!--side-menu-links-->
-                <div class="side-menu" style="border:2px solid yellowgreen">
+                <div class="side-menu">
                     <ul class="side-menu-items">
                         <li>
                             <a href="index.html">
@@ -93,20 +93,35 @@
 
             <!--Main-body-->
             <div class="main-body">
-                <div class="row">
-                    <div class="col-sm-6" style="border:2px solid red;height:50px">
-                        <h5>Welcome to My Portfolio</h5>
-                        <p>Hi, Iam Alex Morgan</p>
-                        <p>Full-Stack Software Developer & UI designer</p>
-                        <a href="portfolio.html" class="btn btn-primary">
-                            View My Work
-                        </a>
 
+                <section class="body-section">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h5>Welcome to My Portfolio</h5>
+                            <p>Hi, Iam Alex Morgan</p>
+                            <p>Full-Stack Software Developer & UI designer</p>
+                            <a href="portfolio.html" class="btn btn-primary">
+                                View My Work
+                            </a>
+
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="images/logo.png" width="250px" height="250px" alt="Profile Image">
+                        </div>
                     </div>
-                    <div class="col-sm-6" style="border:2px solid green">
-                        <img src="images/logo.png" width="250px" height="250px" alt="Profile Image">
+                </section>
+
+                <section class="footer">
+                    <div class="row">
+                         <div class="col-sm-12">
+                            <p>
+                                <center class="footer-paragraph">
+                                    @2026 Alex Morgan
+                                </center>
+                            </p>
+                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     </body>
