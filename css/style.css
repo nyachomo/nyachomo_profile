@@ -94,6 +94,78 @@ body{
     padding-left: 300px;
 }
 
+
+/*ABOUT PAGE */
+.get-to-know-me-paragraph{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:var(--cyan-color)
+}
+
+.about-me-h6{
+    font-size: 32px;
+}
+
+.me-span-text{
+    color: var(--orange-color);
+}
+
+.get-to-know-me{
+    padding-top: 40px;
+}
+
+.who-iam-paragraph{
+    color: var(--cyan-color);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.creative-mind-h6{
+    font-size: 28px;
+    
+}
+
+.span-creative-mind{
+    color: var(--orange-color);
+}
+.who-iam-p1 , .who-i-am-p2{
+    line-height: 33px;
+}
+
+.first-td{
+    color: var(--cyan-color);
+}
+
+.second-td{
+    color: var(--white-color);
+}
+
+.download-cv{
+    background-color: var(--dark-blue-color);
+    color:var(--cyan-color);
+    padding-left: 33px;
+    padding-right:33px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border: 2px solid var(--cyan-color);
+}
+
+.download-cv:hover{
+    background-color: var(--cyan-color);
+    color: var(--dark-blue-color);
+    padding-left: 33px;
+    padding-right:33px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border: 2px solid var(--cyan-color);
+
+}
+
+/*END OF ABOUT PAGE */
+
+
+
+
+
 /*FOOTER STYLES */
 
 .footer-paragraph{
