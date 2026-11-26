@@ -163,6 +163,31 @@ body{
 /*END OF ABOUT PAGE */
 
 
+/*PORTFOLIO PAGE */
+
+.my-work-card{
+    background-color: var(--light-blue-color);
+}
+
+.card-btn{
+   border: 1px solid var(--cyan-color);
+   color: var(--cyan-color);
+}
+
+.card-btn:hover{
+    background-color: var(--light-blue-color);
+    border: 1px solid var(--cyan-color);
+    color:var(--cyan-color)
+}
+
+.demo{
+    color: var(--cyan-color);
+
+}
+
+
+/*END OF PORTFOLIO PAGE */
+
 
 
 
